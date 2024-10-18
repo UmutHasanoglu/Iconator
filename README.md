@@ -8,6 +8,9 @@ This application converts raster images to SVG format, allows for basic styling 
 It will create a virtual environment and install dependencies.
 3. After the installation, run the "start-app.bat" file
 
+## Prerequisites
+Potrace (https://potrace.sourceforge.net/)
+Python
 
 ## Usage
 
