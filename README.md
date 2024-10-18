@@ -30,4 +30,4 @@ The application generates a log file (`svgmaker.log`) in the project directory. 
 
 ## License
 
-[Add your license information here]
+Apache-2.0 license
