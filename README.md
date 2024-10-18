@@ -1,45 +1,19 @@
-# SVG Maker
+# Iconator
 
-This application converts raster images to SVG format and allows for basic styling of the resulting SVGs.
+This application converts raster images to SVG format, allows for basic styling of the resulting SVGs, and can create Icon sheets by using single SVG Icons.
 
 ## Installation and Setup
 
-1. Navigate to the SVGmaker directory:
-   ```bash
-   cd flux_icon_generator/SVGmaker
-   ```
+Run "install.bat" file
+It will create a virtual environment and install dependencies.
 
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate  # On Windows
-   source venv/bin/activate  # On macOS/Linux
-   ```
+After the installation, run the "start-app.bat" file
 
-3. Install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Install Node.js if not already installed (https://nodejs.org/)
-
-5. Install potrace globally using npm:
-   ```bash
-   npm install -g potrace
-   ```
-
-6. Install SVGO for SVG optimization:
-   ```bash
-   npm install svgo
-   ```
 
 ## Usage
 
-1. Run the application:
-   ```bash
-   python app.py
-   ```
-
+SVG Maker:
+1. Run the application
 2. Upload one or more image files.
 3. Adjust the stroke width, fill color, stroke color, and opacity as desired.
 4. Set the desired output size.
@@ -47,13 +21,8 @@ This application converts raster images to SVG format and allows for basic styli
 6. Click "Vectorize" to convert the images to SVG format.
 7. The SVG files will be saved in the specified output directory, and you can also download them directly from the interface.
 
-## Troubleshooting
-
-If you encounter any issues:
-1. Ensure Node.js and potrace are correctly installed.
-2. Check that all Python dependencies are installed.
-3. Make sure you're running the app from the correct directory.
-4. Check the `svgmaker.log` file for error messages and debugging information.
+Icon Sheet:
+1. 
 
 ## Log File
 
