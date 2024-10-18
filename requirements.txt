@@ -1,0 +1,4 @@
+gradio>=4.44.1
+Pillow>=10.1.0
+svgwrite>=1.4.3
+numpy>=1.26.2

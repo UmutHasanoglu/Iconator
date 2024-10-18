@@ -1,0 +1,2 @@
+[Settings]
+output_dir = outputs/
