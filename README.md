@@ -10,6 +10,7 @@ It will create a virtual environment and install dependencies.
 
 ## Prerequisites
 Potrace (https://potrace.sourceforge.net/)
+
 Python
 
 ## Usage
